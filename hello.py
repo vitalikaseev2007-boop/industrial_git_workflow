@@ -3,9 +3,9 @@
 def greet(name):
     """Print a greeting message."""
     if not name:
-        print("Hello, anonymous!")
+        print("Bonjour, anonyme!")
     else:
-        print(f"Hello, {name}!")
+        print(f"Bonjour, {name}!")
 
 if __name__ == "__main__":
     greet("Git")
